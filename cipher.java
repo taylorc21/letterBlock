@@ -41,7 +41,7 @@ public class cipher{
         String encryptMSG = "";
         String temp;
         for (int i = 0; i < letterBlock[0].length; i++){
-            temp = letterBlock[0][i].encryptBlock(message);
+            temp = encryptBlock(message);
             encryptMSG += temp;
 
         }
